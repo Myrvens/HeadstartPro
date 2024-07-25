@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myrvens Sylvestre - Data Scientist & Software Engineer</title>
+    <style>
+        :root {
+            --primary-color: #0077b5;
+            --secondary-color: #ffffff;
+            --text-color: #333333;
+            --background-color: #f5f5f5;
+        }
+        body {
+            font-family: 'Roboto', 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }
+        section {
+            background: var(--secondary-color);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+            font-size: 1.8rem;
+        }
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .skill-category {
+            background: #f0f0f0;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+        .skill-category h4 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+        .skill-list, .certification-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skill-list li, .certification-list li {
+            background: var(--secondary-color);
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .project-item, .experience-item, .leadership-item, .education-item {
+            margin-bottom: 1.5rem;
+            border-left: 3px solid var(--primary-color);
+            padding-left: 1rem;
+            background-color: #f9f9f9;
+            border-radius: 0 8px 8px 0;
+        }
+        .project-item h3, .experience-item h3, .leadership-item h3, .education-item h3 {
+            margin-top: 0;
+        }
+        .project-item p, .experience-item p, .leadership-item p, .education-item p {
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background: var(--primary-color);
+            color: var(--secondary-color);
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #005582;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Myrvens Sylvestre</h1>
+            <p>Aspiring Data Scientist and Software Engineer</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Driven Data Science and Computer Science student with a strong foundation in programming, data analysis, and machine learning. Experienced in developing innovative solutions and passionate about leveraging technology to solve complex problems. Seeking internship opportunities to apply and expand my skills in a dynamic tech environment.</p>
+            <a href="#contact" class="cta-button">Contact Me</a>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Claremont McKenna College</h3>
+                <p>BA in Data Science, minor in Computer Science (Current)</p>
+            </div>
+            <div class="education-item">
+                <h3>UCNJ Union College of Union County</h3>
+                <p>AS in Computer Science</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Programming Languages</h4>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C/C++</li>
+                        <li>SQL</li>
+                        <li>MATLAB</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Data Science & ML</h4>
+                    <ul class="skill-list">
+                        <li>Machine Learning</li>
+                        <li>Data Analysis</li>
+                        <li>Statistical Modeling</li>
+                        <li>Data Visualization</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Tools & Technologies</h4>
+                    <ul class="skill-list">
+                        <li>Git</li>
+                        <li>Visual Studio Code</li>
+                        <li>IntelliJ</li>
+                        <li>Spyder</li>
+                        <li>Tableau</li>
+                        <li>Alteryx</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Soft Skills</h4>
+                    <ul class="skill-list">
+                        <li>Problem Solving</li>
+                        <li>Team Leadership</li>
+                        <li>Project Management</li>
+                        <li>Communication</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Key Projects</h2>
+            <div class="project-item">
+                <h3>Harvesting Knowledge: Web Scraping and Data Optimization in the AI Era</h3>
+                <ul>
+                    <li>Developed Python web scraping tools to gather data from academic sources, enhancing AI model reliability and accuracy</li>
+                    <li>Represented Union College of Union County at NJIT's Newark STEM Ecosystem event, presenting this project to STEM leaders</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>AI-Based Protection of Harmful Emails and Messages</h3>
+                <ul>
+                    <li>Built a real-time threat detection system using Java to automatically flag and respond to dangerous emails</li>
+                    <li>Developed an AI model capable of analyzing data to identify phishing attempts, spread of malware, and information theft</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Enhancing Anti-Counterfeiting Security Features with Asymmetric Encryption</h3>
+                <ul>
+                    <li>Investigated the application of asymmetric encryption as an anti-counterfeiting security feature in identity documents</li>
+                    <li>Implemented cryptographic verification and public key repositories to thwart identity counterfeiting</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Phi Theta Kappa Honors in Action</h3>
+                <ul>
+                    <li>Conducted extensive academic research on how nostalgia play helps alleviate stress in community college students' lives</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>Computational Modeling Intern</h3>
+                <p><em>Dominican University, Orangeburg, New York | May 2024 – July 2024</em></p>
+                <ul>
+                    <li>Developed and executed Python and MATLAB code for data analysis and simulation</li>
+                    <li>Implemented and tested new computing methods, reducing computational time by 25%</li>
+                    <li>Analyzed outputs to form meaningful conclusions, contributing to ongoing research projects</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Career Preparation Fellow</h3>
+                <p><em>Management Leadership for Tomorrow, Washington, DC | December 2023 – Present</em></p>
+                <ul>
+                    <li>Selected for an exclusive 18-month career preparation program focused on leadership and professional development</li>
+                    <li>Completed complex business case studies, enhancing analytical and technical skills</li>
+                    <li>Participated in conferences hosted by industry leaders including Deloitte, LinkedIn, and Target</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Peer Tutor</h3>
+                <p><em>UCNJ Union College of Union County, Cranford, NJ | January 2023 – May 2024</em></p>
+                <ul>
+                    <li>Tutored over 200 students in computer science, mathematics, and ethics, improving average GPA by 0.5 points</li>
+                    <li>Received the Ronnie Johnson Award for outstanding contributions to Union College's Math Success Centers</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="leadership">
+            <h2>Leadership Experience</h2>
+            <div class="leadership-item">
+                <h3>Committee Leader of Leadership, Phi Theta Kappa</h3>
+                <p><em>UCNJ Union College of Union County | June 2023 – May 2024</em></p>
+                <ul>
+                    <li>Co-led the Honors in Action Project, developing stress relief strategies for 35+ students</li>
+                    <li>Organized workshops on scholarships and volunteer opportunities, enhancing member engagement</li>
+                </ul>
+            </div>
+            <div class="leadership-item">
+                <h3>Vice President, Humane Society Club</h3>
+                <p><em>UCNJ Union College of Union County | September 2023 – May 2024</em></p>
+                <ul>
+                    <li>Initiated and led community engagement projects including park cleanups and food drives</li>
+                    <li>Managed club meetings and coordinated volunteer activities, improving local community support</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul class="certification-list">
+                <li>College Reading and Learning Association Level 3 Certified</li>
+                <li>Cybersecurity Workshop Completion</li>
+                <li>PTK Edges</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:sylvestremyrvens58@gmail.com">sylvestremyrvens58@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/myrvenssylvestre/" target="_blank">Myrvens Sylvestre</a></p>
+            <p>GitHub: <a href="https://github.com/Myrvens" target="_blank">Myrvens</a></p>
+        </div>
+    </footer>
+</body>
+</html>
